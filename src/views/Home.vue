@@ -25,20 +25,20 @@
    <!-- 测试报告 -->
    <div style="padding:16px">
      <div>测试报告</div>
-      <van-row type="flex" justify="space-between">
-        <van-col span="6" style='padding:16px;background-color:#fff;width:100px'>
+      <van-row type="flex" justify="space-between" style='margin-top:8px'>
+        <van-col span="6" style='padding:16px;background-color:#fff;width:100px;box-shadow:0 0 1px #969799;'>
           <div class="flexCo" style="justify-content:center">
             <div><img src="@/assets/1.jpg" alt="" class="img"></div>
             <div class="font12 fontCenter">企业调查</div>
           </div>
         </van-col>
-        <van-col span="6" style='padding:16px;background-color:#fff;width:100px'>
+        <van-col span="6" style='padding:16px;background-color:#fff;width:100px;box-shadow:0 0 1px #969799;'>
           <div class="flexCo" style="justify-content:center">
             <div><img src="@/assets/1.jpg" alt="" class="img"></div>
             <div class="font12 fontCenter">金融调查</div>
           </div>
         </van-col>
-        <van-col span="6" style='padding:16px;background-color:#fff;width:100px'>
+        <van-col span="6" style='padding:16px;background-color:#fff;width:100px;box-shadow:0 0 1px #969799;'>
           <div class="flexCo" style="justify-content:center">
             <div><img src="@/assets/1.jpg" alt="" class="img"></div>
             <div class="font12 fontCenter" >专项调查</div>
@@ -48,8 +48,14 @@
    </div>
    <!-- 查产品 -->
    <div style="padding:16px">
-     <div>测试报告</div>
-      <van-row type="flex" justify="space-between">
+     <div>查产品</div>
+      <van-row type="flex" justify="space-between" style=';background-color:#fff;margin-top:8px;box-shadow:0 0 1px #969799;'>
+        <van-col span="6" style='padding:16px;background-color:#fff;width:100px'>
+          <div class="flexCo" style="justify-content:center">
+            <div><img src="@/assets/1.jpg" alt="" class="img"></div>
+            <div class="font12 fontCenter">企业调查</div>
+          </div>
+        </van-col>
         <van-col span="6" style='padding:16px;background-color:#fff;width:100px'>
           <div class="flexCo" style="justify-content:center">
             <div><img src="@/assets/1.jpg" alt="" class="img"></div>
@@ -73,7 +79,7 @@
    <!-- 我的应用 -->
     <div style="padding:16px">
      <div>我的应用</div>
-      <van-row type="flex" justify="space-between">
+      <van-row type="flex" justify="space-between"  style='margin-top:8px'>
         <van-col span="6" style='padding:16px;background-color:#fff;width:100px'>
           <div class="flexCo" style="justify-content:center">
             <div><img src="@/assets/1.jpg" alt="" class="img"></div>
@@ -96,7 +102,7 @@
    </div>
    <!-- 今日资讯 -->
   <div style="padding:16px">
-    <div>测试报告</div>
+    <div>今日资讯</div>
     <van-row type="flex" justify="space-between">
       <van-col span="6" style='padding:16px;background-color:#fff;width:100px'>
         <div class="flexCo" style="justify-content:center">
